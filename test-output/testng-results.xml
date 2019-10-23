@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15121" started-at="2019-10-22T13:17:54Z" finished-at="2019-10-22T13:18:09Z">
+    <groups>
+      <group name="regression">
+        <method signature="TC_001.amazon()[pri:0, instance:com.selenium.SampleMavenProject.TC_001@fad74ee]" name="amazon" class="com.selenium.SampleMavenProject.TC_001"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_001.amazon()[pri:0, instance:com.selenium.SampleMavenProject.TC_001@fad74ee]" name="amazon" class="com.selenium.SampleMavenProject.TC_001"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="15121" started-at="2019-10-22T13:17:54Z" finished-at="2019-10-22T13:18:09Z">
+      <class name="com.selenium.SampleMavenProject.TC_001">
+        <test-method status="PASS" signature="startProcess(java.lang.String)[pri:0, instance:com.selenium.SampleMavenProject.TC_001@fad74ee]" name="startProcess" is-config="true" duration-ms="8847" started-at="2019-10-22T18:47:54Z" finished-at="2019-10-22T18:48:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startProcess -->
+        <test-method status="PASS" signature="amazon()[pri:0, instance:com.selenium.SampleMavenProject.TC_001@fad74ee]" name="amazon" duration-ms="4603" started-at="2019-10-22T18:48:03Z" finished-at="2019-10-22T18:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazon -->
+        <test-method status="PASS" signature="endProcess()[pri:0, instance:com.selenium.SampleMavenProject.TC_001@fad74ee]" name="endProcess" is-config="true" duration-ms="1629" started-at="2019-10-22T18:48:07Z" finished-at="2019-10-22T18:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endProcess -->
+      </class> <!-- com.selenium.SampleMavenProject.TC_001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
